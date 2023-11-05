@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg py-3 fixed-top bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Udemig</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Neler Öğreneceksiniz?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sorular</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Eğitmenler</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- highlight -->
+
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justfiy-content-between">
+          <div>
+            <h1>
+              Bir <span class="text-warning">React Geliştiricisi </span>Ol
+            </h1>
+            <p class="lead my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              minima aut temporibus itaque incidunt illo iure. Officiis nam
+              sequi atque accusantium, iusto quam itaque quo similique
+              cupiditate repudiandae maiores dolores. Ullam dolorum, assumenda
+              cumque consequatur suscipit soluta eius possimus, reiciendis saepe
+              omnis asperiores nulla dolore reprehenderit voluptas ab in? Unde
+              iste odio animi amet in! Fugit maxime accusamus magni! Autem?
+            </p>
+            <button
+              class="btn btn-primary btn-lg mb-3"
+              data-bs-target="#exampleModal"
+              data-bs-toggle="modal"
+            >
+              Kayıt ol
+            </button>
+          </div>
+          <img
+            src="images/ios.jpeg"
+            alt=""
+            class="fluid w-50 d-sm-block d-none"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Hızlı kayıt alanı -->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div>
+          <h3 class="mb-3">Kayıt Ol</h3>
+          <div class="div input-group">
+            <input type="text" class="form-control" placeholder="E mail" />
+            <button class="btn btn-lg btn-dark">Gönder</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- öğrenim tipleri -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <!-- ilk kart -->
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h5 class="card-title">Sanal</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore repellat mollitia necessitatibus!.
+                </p>
+                <a href="#" class="btn btn-primary">Daha fazla oku</a>
+              </div>
+            </div>
+          </div>
+
+          <!--2. kart -->
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person"></i>
+                </div>
+                <h5 class="card-title">Birebir</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore repellat mollitia necessitatibus!.
+                </p>
+                <a href="#" class="btn btn-dark">Daha fazla oku</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. kart -->
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h5 class="card-title">Toplu</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore repellat mollitia necessitatibus!.
+                </p>
+                <a href="#" class="btn btn-primary">Daha fazla oku</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- neler öğreneceğiz -->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row align-items center justify-content-between">
+          <div class="col-md">
+            <img src="images/based.png" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Temelleri Öğren</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+              optio saepe quod.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              iste, error voluptates sunt inventore, soluta ad voluptate ex,
+              quaerat id quidem laborum? Officia, ducimus rem!
+            </p>
+            <a href="" class="btn btn-light mt-3"
+              ><i class="bi bi-chevron-right"></i>Daha Fazla Oku..</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- neler öğreneceğiz 2-->
+
+    <section class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items center justify-content-between">
+          <div class="col-md p-5">
+            <h2>React Öğren</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+              optio saepe quod.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              iste, error voluptates sunt inventore, soluta ad voluptate ex,
+              quaerat id quidem laborum? Officia, ducimus rem!
+            </p>
+            <a href="" class="btn btn-light mt-3"
+              ><i class="bi bi-chevron-right"></i>Daha Fazla Oku..</a
+            >
+          </div>
+          <div class="col-md">
+            <img src="images/react.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sık sorulan sorular -->
+    <section class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Sık Sorulan Sorular</h2>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Ders saatleri
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element. These classes control
+                the overall appearance, as well as the showing and hiding via
+                CSS transitions. You can modify any of this with custom CSS or
+                overriding our default variables. It's also worth noting that
+                just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Eğitimenler
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Ders içerikleri
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Eğitim Merkezleri
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Referanslar
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element. These
+                classes control the overall appearance, as well as the showing
+                and hiding via CSS transitions. You can modify any of this with
+                custom CSS or overriding our default variables. It's also worth
+                noting that just about any HTML can go within the
+                <code>.accordion-body</code>, though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- eğitimenler -->
+    <div class="section p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Eğitmenlerimiz</h2>
+        <p class="lead text-center text-white mb-5">
+          Eğitmenlerimiz 10 yıldan fazladır bu alanda çalışmaktadırlar.
+        </p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/person.jpeg"
+                  class="rounded-circle img-fluid mb-3"
+                  alt="..."
+                />
+                <h5 class="card-title mb-3">Fatma Akyıl</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi mx-1 bi-twitter text-primary"></i>
+                <i class="bi mx-1 bi-instagram text-warning"></i>
+                <i class="bi mx-1 bi-facebook text-primary"></i>
+                <i class="bi mx-1 bi-linkedin text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/person.jpeg"
+                  class="rounded-circle img-fluid mb-3"
+                  alt="..."
+                />
+                <h5 class="card-title mb-3">Meral Yıldırım</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi mx-1 bi-twitter text-primary"></i>
+                <i class="bi mx-1 bi-instagram text-warning"></i>
+                <i class="bi mx-1 bi-facebook text-primary"></i>
+                <i class="bi mx-1 bi-linkedin text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/person.jpeg"
+                  class="rounded-circle img-fluid mb-3"
+                  alt="..."
+                />
+                <h5 class="card-title mb-3">Vildan Aydın</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi mx-1 bi-twitter text-primary"></i>
+                <i class="bi mx-1 bi-instagram text-warning"></i>
+                <i class="bi mx-1 bi-facebook text-primary"></i>
+                <i class="bi mx-1 bi-linkedin text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="images/person.jpeg"
+                  class="rounded-circle img-fluid mb-3"
+                  alt="..."
+                />
+                <h5 class="card-title mb-3">Gülma Tayfur</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi mx-1 bi-twitter text-primary"></i>
+                <i class="bi mx-1 bi-instagram text-warning"></i>
+                <i class="bi mx-1 bi-facebook text-primary"></i>
+                <i class="bi mx-1 bi-linkedin text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- iletişim -->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">İletişim Bilgileri</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Ana Konum</span> Stockholm
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Kayıt Numarası</span> 555 555 55 55
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Öğrenci İşleri</span> 777 777 77 77
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Kayıt Maili</span> Stockholm@udemig.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Öğrenci İşleri</span> ogrenci@udemig.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="p-5 bg-dark text-white text-center position-relative">
+      <div class="container">
+        <div class="lead">Tüm Hakları Saklıdır &copy; 2022 Udemig</div>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- modal -->
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Kayıt</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">İgili alanları doldurun biz size döneceğiz.</p>
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Ad:</label>
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label"
+                  >Soyad:</label
+                >
+                <input type="text" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Mail:</label>
+                <input type="email" class="form-control" id="recipient-name" />
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Tel:</label>
+                <input type="number" class="form-control" id="recipient-name" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Kapat
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              Gönder
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwgH4UWxBtysqJfJlio6v1c_v7cAh5Q3I&callback=initMap"></script>
+
+    <script>
+      let map;
+
+async function initMap() {
+  const { Map } = await google.maps.importLibrary("maps");
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: 59.4630847, lng: 17.9844077 },
+    zoom: 10,
+  });
+}
+
+initMap();
+    </script>
+  </body>
+</html>

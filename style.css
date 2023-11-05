@@ -1,0 +1,10 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+}
